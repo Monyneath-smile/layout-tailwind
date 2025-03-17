@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@theme{
+    /* --color-primary:#efefef;
+    --color-secondary:#24a74d;
+    --font-khmer:"Open Sans", sans-serif
+    --text-heading1:28px;
+    --text-heading2:24px;
+    --text-heading3:20px;
+    */
+    --font-khmer: "kanturuy Pro", "Open Sans";
+    --font-english:"Poppins", "Open Sans";
+    --color-parimary:"#b60000";
+}
+/* @custom-variant media (&:where(.dark, .dark *)); */
+@custom-variant dark (&:where(.dark, .dark *));
